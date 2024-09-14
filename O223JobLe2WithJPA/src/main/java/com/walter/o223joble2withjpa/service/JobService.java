@@ -48,6 +48,6 @@ public class JobService {
     }
 
     public List<JobPost> searchJob(String keyword) {
-        return jobRepo.findByPostProfileContainingOrPostDescContaining(keyword, keyword);
+        return jobRepo.findByPostProfileContainingIgnoreCaseOrPostDescContainingIgnoreCase(keyword, keyword);
     }
 }
