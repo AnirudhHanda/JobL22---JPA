@@ -1,7 +1,7 @@
 # JobLe2 - My Job Portal Learning Project (React + Spring Data JPA)
 
 <div align="center">
-  <a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME">
+  <a href="https://github.com/AnirudhHanda/JobLe2---JPA">
     <img src="github-assets/logo4.png" alt="Project Logo" style="height: 80px; width: 250px;">
   </a>
 </div>
