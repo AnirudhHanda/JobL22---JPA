@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/*
+Just a note : This application will right now be accessible only from the Rest Client like Postman using Basic Auth in the headers.
+ */
+
 @RestController
 @CrossOrigin("http://localhost:3000")
 public class JobController {
