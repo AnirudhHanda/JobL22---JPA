@@ -25,6 +25,28 @@ Spring Data JPA is a powerful module in the Spring framework that simplifies dat
 * **Database independence:** You can switch between different database providers (e.g., MySQL, PostgreSQL, H2) with minimal code changes, thanks to JPA's portability.
 * **Simplified querying:** Spring Data JPA provides a rich set of query methods and the ability to define custom queries using JPQL (Java Persistence Query Language) or native SQL, reducing the need to write complex SQL queries directly.
 
+## Security
+
+I have learned Spring Security and implemented it in this project esthetically and beautifully. The application now includes basic user authentication and authorization.
+
+### Steps Taken:
+
+1. **Added Spring Security Dependency:**
+   - Included the Spring Security dependency in the `pom.xml` file.
+
+2. **Configured Security:**
+   - Created a `SecurityConfig` class to configure HTTP security and user authentication.
+
+3. **Implemented User Details Service:**
+   - Created a `UserPrincipal` class implementing `UserDetails` to represent authenticated users.
+   - Configured a custom `UserDetailsService` to load user-specific data.
+
+4. **Updated Application Properties:**
+   - Configured security-related properties in `application.properties`.
+
+5. **Secured Endpoints:**
+   - Restricted access to API endpoints, allowing only authenticated users to access them.
+
 ## Screenshots
 
 * Home Page
